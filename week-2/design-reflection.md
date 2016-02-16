@@ -1,5 +1,5 @@
-<img src="/imgs/site-map.png">
-[Site Map](/imgs/site-map.png)
+<img src="/week-2/imgs/site-map.png">
+[Site Map](/week-2/imgs/site-map.png)
 
 ## Site Map Reflection and Submission
 
