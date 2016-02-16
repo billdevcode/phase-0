@@ -27,16 +27,14 @@ My site will address this with About Me, Projects and Contacts pages.
 The primary action should be to look at my projects portfolio since it shows the result of my time at DBC.
 
 #### What are the main things someone should know about design and user experience?
-Design and user experience are both useful and important for companies to increase revenue and share information with their customers. 
-The main things are to figure out your site's purpose, goal, target audience and audience needs. 
-
+Design and user experience are both useful and important for companies to increase revenue and share information with 
+their customers and potential customers. The main things are to figure out the site's purpose, goal, target audience and audience needs. 
 
 #### What is user experience design and why is it valuable? 
 User experience design is a design that focuses on providing the best user experience. 
-This is valuable and important because it determines whether or not the user will enjoy using the website or not.
-A user that does not enjoy using a website will eventually stop using it.   
-
+This is valuable and important because it determines whether the user enjoys using the website or not.
+A user who does not enjoy using a website will eventually stop using it.   
 
 #### Which parts of the challenge did you find tedious?
-I think some parts of the User Experience Design article are tedious and sounds like common sense such as the topics: 
+I think some parts of the User Experience Design article were tedious and sounded like common sense such as the topics: 
 "Projects With "OK" Budgets" and "UX Design is Not One Size Fits All". 
