@@ -1,5 +1,7 @@
+## Wireframe of Site Index
 ![wireframe](imgs/wireframe-index.png)
 
+## Wireframe of Blog
 ![wireframe-blog](imgs/wireframe-blog-index.png)
 
 #### What is a wireframe?
