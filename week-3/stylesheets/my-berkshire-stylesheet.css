@@ -1,0 +1,121 @@
+.company-links {
+  font-size: 0.8em;
+}
+
+.first-half-li {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.second-half-li {
+  float: right;
+  width: 50%;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+html {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  color: #000080;
+}
+
+li span {
+  font-size: .7em;
+}
+
+.contact-information {
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1em;
+}
+
+h3 {
+  margin: 0;
+}
+
+h1 span {
+  font-size: 2em;
+}
+
+#address {
+  font-size: .6em;
+}
+
+h3 span {
+  display: block;
+}
+
+#official {
+  font-size: .75em;
+  margin-bottom: 20px;
+}
+
+.geico-ad {
+  text-align: center;
+  font-size: 0.60em;
+  clear: both;
+}
+
+.geico-ad span {
+  display: block;
+}
+
+.horizontal-line {
+  border-top: 1px solid gray;
+  clear: both;
+}
+
+.comments {
+  font-size: 0.70em;
+}
+
+.copyright {
+  font-size: .5em;
+}
+
+.copyright span {
+  font-weight: bold;
+}
+
+/*
+1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It's important to know the link goes in the <head> tag. We also need to know the relationship between 
+the current document and the linked file. Lastly, we need to know the location (URL) of the external file. 
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+At first I used the column-count property to separate the links into 2 columns but the right side lost the 
+circle bullets icons in front of the text. So then I separated the links into 2 <div> and float both sides 
+left and right then changed the width so they fit on the same screen. It wasn't too tough to get the site 
+looking like the real one, my pair and I finished it within 1 hour. 
+
+3. What CSS did you use to modify the element style (like size, color, etc.)
+We added a bunch of <span> tags to separate some words or letters with others so we could change the styles. 
+Some of the CSS we used are color, background-color, font-size, and em.
+
+4. Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We added classes and IDs to the HTML file. My pairing partner added IDs while I added classes.
+I chose classes so I could use it more than once for example, to create the 4-lines (replacing HTML's <hr>), I 
+used class so I could use it more than once. Since we didn't use the ID tags more than once so it was okay 
+to use them. 
+
+5. When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I think the one my pairing partner and I worked on followed best practices. Our codes were much, much
+shorter than the actual site's code base while achiving similar results. The actual code base also styled the 
+HTML inline directly and each of the links were <li> tags nested in it's separate <ul> tags so many of the codes were redundant. 
+/*
