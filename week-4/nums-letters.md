@@ -1,5 +1,8 @@
 ## 4.2 Numbers, Letters, and Variable
 
+[4.2.1 Defining Variables](https://github.com/billdevcode/phase-0/blob/master/week-4/defining-variables.rb)
+
+
 #### What does puts do?
 `puts` returns `nil` and prints the output to the console with a new line.
 
