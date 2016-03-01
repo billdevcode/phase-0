@@ -54,6 +54,6 @@ we want to store an object somewhere for later use.
 
 #### How was this challenge? Did you get a good review of some of the basics?
 The challenge refreshed the basics of Ruby, which is nice so we don't jump right into 
-something too difficult. I think the challenging part was the instructions were a bit 
+something too difficult. I think the more challenging part was the instructions were a bit 
 confusing because each exercise asked us to submit the link and if we did then we would 
 have to submit 4 links including this one. 
