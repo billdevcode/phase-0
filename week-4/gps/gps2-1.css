@@ -1,0 +1,33 @@
+body {
+background-color: #fafafa;
+}
+
+.column-1 {
+  float: left;
+  width: 40%;
+}
+
+.column-2 {
+  float: right;
+  width: 50%;
+  margin-bottom: 50px; 
+}
+
+header,
+footer {
+  clear:both;
+  background-color: lightblue;
+}
+
+code {
+  background-color: silver;
+}
+
+h2 {
+  font-family: cursive;
+}
+
+p {
+  font-family: sans-serif;
+}
+
