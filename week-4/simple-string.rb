@@ -1,6 +1,6 @@
 # Solution Below
 old_string = "Ruby is cool"
-new_string = old_string.upcase.reverserspe
+new_string = old_string.upcase.reverse
 
 
 
