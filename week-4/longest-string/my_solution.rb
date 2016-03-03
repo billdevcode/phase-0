@@ -36,10 +36,10 @@ def longest_string(list_of_words)
   long_word = list_of_words[0]
   string_length = list_of_words[0].length
   
-  list_of_words.each do |word|
-    if word.length > string_length
-      long_word = word
-      string_length = word.length
+  for i in list_of_words do
+    if i.length > string_length
+      long_word = i
+      string_length = i.length
     end
   end
   long_word
