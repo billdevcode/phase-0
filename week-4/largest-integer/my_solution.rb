@@ -14,7 +14,7 @@
 
 =begin
 
-input: array
+input: array (list)
 output: integer
 => pseudocode 
 
