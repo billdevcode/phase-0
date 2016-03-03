@@ -11,6 +11,7 @@
 # If +list_of_nums+ is empty the method should return nil
 
 # Your Solution Below
+
 =begin
 
 input: array
