@@ -29,9 +29,9 @@ return the variable at the end
 def smallest_integer(list_of_nums)
   integer = list_of_nums[0]
 
-  for i in 0...list_of_nums.length do
-    if integer > list_of_nums[i]
-      integer = list_of_nums[i]
+  for i in list_of_nums do
+    if integer > i
+      integer = i
     end
   end
   integer
