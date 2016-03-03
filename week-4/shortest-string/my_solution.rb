@@ -21,9 +21,10 @@ output: string
 return nil if there is nothing on the list
 create a variable and set it to the first word on list
 create a variable and set it to the length of the first word on list
-go through the list and if any word's length is shorter than the variable's length
-  set the variable to the new word
-  set the other variable to that new word's length
+go through the list 
+  if any word's length is shorter than the variable's length
+    set the variable to the new word
+    set the other variable to that new word's length
 return the word
 
 =end
