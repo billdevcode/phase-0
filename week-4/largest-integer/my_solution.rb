@@ -19,8 +19,9 @@ output: integer
 => pseudocode 
 
 create a variable and set it to the first number of the list
-go through the list and if any number is larger than the variable 
-  set the variable to that new number
+go through the list
+  if any number is larger than the variable 
+    set the variable to that new number
 return the variable at the end
 
 =end

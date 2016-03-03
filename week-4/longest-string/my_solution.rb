@@ -1,6 +1,6 @@
 # Longest String
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [by myself].
 
 # longest_string is a method that takes an array of strings as its input
 # and returns the longest string
@@ -22,9 +22,10 @@ output: string
 return nil if there is nothing on the list
 create a variable and set it to the first word on list
 create a variable and set it to the length of the first word on list
-go through the list and if any word's length is longer than the variable's length
-  set the variable to the new word
-  set the other variable to that new word's length
+go through the list 
+  if any word's length is longer than the variable's length
+    set the variable to the new word
+    set the other variable to that new word's length
 return the word
 
 =end
