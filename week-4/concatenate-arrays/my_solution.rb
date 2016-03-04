@@ -8,25 +8,17 @@
 
 input: 2 arrays (2 lists)
 output: 1 array
-=>psuedocode
 
-create an empty list
-go through both lists 
-  copy the items to the empty list
-return the originally empty list, now filled with items from both given lists
+go through second lists 
+  copy the items to first list
+return first list
 
 =end
 
 def array_concat(array_1, array_2)
-  new_array = []
-  
-  array_1.each do |item|
-    new_array.push(item)
-  end
   
   array_2.each do |item|
-    new_array.push(item)
+    array_1.push(item)
   end
-  
-  new_array
+  array_1
 end
