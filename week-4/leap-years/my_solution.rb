@@ -11,7 +11,7 @@ output: boolean
 
 => pseudocode
 
-IF year is divisible by 400 and 100 
+IF year is divisible by 400
   return true
 IF year is divisible by 4 but not 100 
   return true
@@ -22,11 +22,11 @@ Everything else
 
 def leap_year?(year)
 
-  if (year % 100 == 0 && year % 400 == 0)
-    p true
+  if (year % 400 == 0)
+    true
   elsif (year % 100 != 0 && year % 4 == 0)
-    p true
+    true
   else
-    p false
+    false
   end
 end
