@@ -14,7 +14,7 @@ output: boolean
 IF year is divisible by 400 and 100 
   return true
 IF year is divisible by 4 but not 100 
-  return false
+  return true
 Everything else 
   return false
 
