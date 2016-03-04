@@ -8,7 +8,6 @@
 
 input: integer
 output: string
-=>psuedocode
 
 IF provided integer is between 90 to 100 
   grade is A so return "A"
