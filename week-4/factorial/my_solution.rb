@@ -20,8 +20,8 @@ output the variable that we created
 def factorial(number)
     total = 1
     while number > 0
-      total = total * number
-      number = number - 1
+      total *= number
+      number -= 1
     end
     total
 end
