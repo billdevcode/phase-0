@@ -26,7 +26,7 @@ output the sum
 def total(list)
   sum = 0
   for i in list
-    sum = sum + i
+    sum += i
   end
   sum
 end
