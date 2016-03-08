@@ -91,6 +91,9 @@ list_of_people = [
 
 =begin
 
+MVP (Minimum Viable Product) User Stories: 
+1. Each group has at least 3 people
+
 input: array (above list)
 output: array (with sub-arrays)
 psuedocode:
