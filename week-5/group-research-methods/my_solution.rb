@@ -85,18 +85,16 @@ to true while the second array contains the rest.
 Release 1: Identify and describe the Ruby method you implemented. Teach your
 accountability group how to use the methods.
 
-The method I used is the partition method.
-First you first create 2 variables which will be the 2 arrays we separate the source into
-later. Then you set the 2 variables equal to the array or hash parameter. In our
-above example, the parameter is named "source", next we call the method (source.partition).
-Then we create a variable (or 2 variables for hashes) which points to each element 
-we pass to the partition method and lastly we set the condition we want to evaluate as true. 
-The method will evaluate each element and if it's true, sends it to the first array and 
-if it's not true, sends it to the second array. 
+The method I used is the partition method. First you first create 2 variables which 
+will be the 2 arrays we separate the source into later. Then you set the 2 variables 
+equal to the array or hash parameter. In our above example, the parameter is 
+named "source", next we call the method (source.partition). Then we create a variable 
+(or 2 variables for hashes) which points to each element we pass to the partition 
+method and lastly we set the condition we want to evaluate as true. The method will 
+evaluate each element and if it's true, sends it to the first array and if it's not 
+true, sends it to the second array. 
 
-Release 3: Reflect!
-
-What did you learn about researching and explaining your research to others?
+Release 3: Reflect! What did you learn about researching and explaining your research to others?
 
 I googled for "ruby separate array into two arrays two conditions", basically describing
 what I'm trying to achieve. The first link showed me the partition method and then I went 
