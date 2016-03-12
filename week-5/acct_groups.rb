@@ -136,7 +136,7 @@ def acct_groups(list)
   else 
     list_of_groups.push(group)
   end
-  p list_of_groups
+  list_of_groups
 end
 acct_groups(list_of_people)
 
@@ -150,7 +150,7 @@ def acct_groups(list)
     end
   new_list.pop
   end
-  p new_list
+  new_list
 end
 acct_groups(list_of_people)
 
