@@ -106,12 +106,12 @@ go through input list and randomly choose a person and add this person to the te
   IF temporary group has 4 people
     move the temporary group to the list-of-groups container
     reset temporary group
-  => repeat above 4 steps until input list has no more people
-end WHILE
+  END IF
+END WHILE
 IF there are less than 3 leftover people in temporary group
   move them to the first two groups on the list-of-groups
-IF there are 3 leftover people in temporary group
-  move the temporary group to the list-of-groups container
+ELSE move the temporary group to the list-of-groups container
+END IF
 output the list-of-groups container 
 
 =end
