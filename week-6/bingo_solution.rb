@@ -71,11 +71,11 @@ end
 class BingoBoard
   def initialize(board)
     @bingo_board = board
+    @bingo = ["B", "I", "N", "G", "O"]
   end
   
   def call
-    @bingo = ["B", "I", "N", "G", "O"]
-    @bingo_index = rand(@bingo.length)
+    @bingo_index = rand(5) # 5 for each letter in BINGO
     @random_number = rand(1..100)
     random_letter = @bingo[@bingo_index]
     
