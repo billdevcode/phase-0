@@ -100,10 +100,8 @@ class CreditCard
   end
 
   def sum_all_digits
-    @num_array.map! do |num|
-      num.to_s.length > 1 ? num.to_s.split('') : num.to_s
-    end
     @sum = 0
+    @num_array.map! { |num| num.to_s.length > 1 ? num.to_s.split('') : num.to_s }
     @num_array.flatten.map! { |num| @sum += num.to_i }
   end
   
