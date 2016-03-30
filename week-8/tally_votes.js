@@ -63,6 +63,8 @@ var officers = {
   treasurer: undefined
 }
 
+// input: a container of people's votes
+// output: tally of all votes to be used for officers container
 // Pseudocode
 
 // add "Bob" property to president object, which is located in voteCount object and set value to 3 
@@ -77,18 +79,36 @@ voteCount.secretary.Bob = 2;
 // add "Bob" property to treasurer object, which is located in voteCount object and set value to 4 
 voteCount.treasurer.Bob = 4;
 
-// Set the president property of the object officers to the value to Louise
+// Set the president property of the object officers to the value "Louise"
 officers.president = "Louise";
 
-// Set the vicePresident property of the object officers to the value to Hermann
+// Set the vicePresident property of the object officers to the value "Hermann"
 officers.vicePresident = "Hermann";
 
-// Set the secretary property of the object officers to the value to Fred
+// Set the secretary property of the object officers to the value "Fred"
 officers.secretary = "Fred";
 
-// Set the treasurer property of the object officers to the value to Ivy
+// Set the treasurer property of the object officers to the value "Ivy"
 officers.treasurer = "Ivy";
 
+/*
+go through votes container
+  go through each item of votes container to find the candidate votes for each role
+    IF voteCount container's roles have the candidate's name
+      add 1 to the candidate's votes
+    ELSE
+      add the candidate's name and set vote count to 1
+    END IF
+    
+create a new counter to keep track of numbers    
+go through voteCount container
+  go through each role and find the total votes of each candidate
+    IF the total votes is higher than counter
+      set counter to the new total votes
+      assign the person with highest total votes to the roles on officers container
+    END IF
+    reset counter to 0
+*/
 // __________________________________________
 // Initial Solution
 
