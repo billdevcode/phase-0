@@ -1,9 +1,9 @@
 # OO Basics: Student
 
+# https://github.com/billdevcode/phase-0/blob/master/week-9/ruby-review-2/ruby-review.rb
 
-# I worked on this challenge [by myself, with: ].
-# This challenge took me [#] hours.
-
+# I worked on this challenge [with: Aarthi Gurusami].
+# This challenge took me [3] hours.
 
 # Pseudocode
 =begin
@@ -45,8 +45,6 @@ create class Student
         return -1
       END IF
   END linear_search
-  
-
 END class
 
 create method binary_search which takes a list and a name
